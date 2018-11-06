@@ -37,7 +37,7 @@ class BaseLoading extends Component {
       <ContentWrapper {...headerConfig(intl)}>
         {() => (
           <Fragment>
-            {isLoading || true ? (
+            {isLoading ? (
               children
             ) : (
                 <ReloadableError
